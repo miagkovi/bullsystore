@@ -5,73 +5,241 @@
 	<meta name="description" content="Rugger Shoes Store">
 	<meta name="keywords" content="Snickers, Boots, Shoes, Ruggedness">
 	<meta name="author" content="Miagkov Ievgenii">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 	<link rel="stylesheet" href="styles/styles.css">
 	<title>BULLSY | Rugger Shoes Store</title>
 </head>
 <body>
-
-	<div class="page">
-		
-		
-		<header>
-			<div class="wrapper">
-				<div class="header__top">
-					<div class="support">
-						<p>
-							<img src="" alt="phone" />565 975 658 
-							<img src="" alt="letter" />info@premiumcoding.com
-						</p>
-					</div>
-					<div class="account">
-						<ul>
-							<li>my account</li>
-							<li>login</li>
-							<li>checkout</li>
-							<li>sign up</li>
-						</ul>
-					</div>
-				</div>
-				<div class="header__bottom">
-					<div class="wrapper">
-						<div class="logo">
-							<img src="" alt="BULLSY rugger shoes store" />
-						</div>
-						<div class="menu">
-							<ul>
-								<li>home</li>
-								<li>apparel</li>
-								<li>fashion</li>
-								<li>contact us</li>
-							</ul>
-						</div>
-						<div class="cart">
-							10 items
-							$459.99
-							<img src="" alt="cart" />
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</header>
-
-		<div class="content">
-			<div class="slideshow"></div>
-			<div class="featured-boxes">
-				
-			</div>
-			<div class="categories"></div>
-			<div class="latest-products"></div>
-			<div class="featured-products"></div>
-			<div class="recent-posts"></div>
-			<div class="quote"></div>
+<!--upperheader section-->
+	<section class="upperheader">
+		<div class="wrap">
+			<ul class="support">
+				<li>
+					<img src="img/phoneIcon.png" alt="phone">
+					<a href="tel://+565 975 658">+565 975 658</a>
+				</li>
+				<li>
+					<img src="img/email-icon.png" alt="email">
+					<a href="mailto:info@premiumcoding.com">info@premiumcoding.com</a>
+				</li>
+			</ul>
+			<ul class="account">
+				<li><a href="#account">MY ACCOUNT</a></li>
+				<li><a href="#login">LOGIN</a></li>
+				<li><a href="#checkout">CHECKOUT</a></li>
+				<li><a href="#signup">SIGN UP</a></li>
+			</ul>
 		</div>
-
-		<footer></footer>
-
+	</section>
+<!--header section-->
+	<header>
+		<div class="wrap">
+			<div class="header__logo">
+				<img src="img/VectorBoot.png" alt="logo" class="logo__img">
+			</div>
+			<div class="header__menu">
+				<ul>
+					<li><a href="#HOME">HOME</a></li>
+					<li><a href="#APPAREL">APPAREL</a></li>
+					<li><a href="#FASHION">FASHION</a></li>
+					<li><a href="#CONTACTUS">CONTACT US</a></li>
+				</ul>
+			</div>
+			<div class="header__cart">
+				<a href="#cart"><img src="img/cart_icon.png" alt="cart"></a>
+				<p><span class="cart__items">10 items</span><br/>
+				<span class="cart__price">459.99 &euro;</span></p>
+			</div>
+		</div>
+	</header>
+<!--slideshow section-->
+	<section class="slideshow">
+		<div class="wrap">
+			<img src="img/slideshow-image-3.jpg" alt="slide" class="slideshow__slide">
+			<ul class="slideshow__menu">
+				<li>SHOES</li>
+				<li>SNICKERS</li>
+				<li>BOOTS</li>
+				<li>RUGGEDNESS</li>
+			</ul>
+			<img src="img/buller-slideshow-logo.png" alt="logo" class="slideshow__logo">
+		</div>
+	</section>
+<!--featured boxes section-->
+	<section class="featured-boxes">
+		<div class="wrap">
+			<div class="featured-box">
+				<h4>FREE SHIPPING</h4>
+				<p>- on all orders above <span>$99</span></p>
+			</div>
+			<div class="featured-box">
+				<h4>NEW SHOES COLLECTION</h4>
+				<p>- brand new collection of <span>Bulls Shoes</span></p>
+			</div>
+			<div class="featured-box">
+				<h4>MONEY BACK GUARANTEE</h4>
+				<p>- return policy on all orders within <span>14 days</span></p>
+			</div>
+		</div>
+	</section>
+<!--categories section-->
+	<section class="categories bordered">
+		<div class="wrap">
+			<div class="heading">
+				<h3>OUR SHOE CATEGORIES</h3>
+			</div>
+			<div class="category">
+				<img src="img/photodune-3164242-waterproof-shoes-m.jpg" alt="category">
+				<div class="category__text">
+					<h4>SNICKERS</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloribus neque accusantium vel, quae repellendus!</p>
+					<a href="" class="a-red">View the Category</a>
+				</div>
+			</div>
+			<div class="category">
+				<img src="img/photodune-962928-running-in-the-rain-m.jpg" alt="category">
+				<div class="category__text">
+					<h4>RUNNING SHOES</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laboriosam, dignissimos veniam obcaecati. Quasi, eaque.</p>
+					<a href="" class="a-red">View the Category</a>
+				</div>
+			</div>
+			<div class="category">
+				<img src="img/photodune-1684341-boots-s.jpg" alt="category">
+				<div class="category__text">
+					<h4>MOUNTAIN SHOES</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate omnis, laborum nobis similique quas animi.</p>
+					<a href="" class="a-red">View the Category</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--latest section-->
+	<section class="latest-products">
+		<div class="wrap">
+			<div class="heading">
+				<h3>OUR LATEST ARRIVALS</h3>
+			</div>
+			<div class="latest-product">
+				<img src="img/photodune-4407870-old-sport-shoe-m.jpg" alt="latest product">
+				<p>Bullsy Shoes in White</p>
+				<p class="price">$159.99</p>
+				<button class="btn-a">ADD TO CART</button>
+			</div>
+			<div class="latest-product new">
+				<img src="img/photodune-1684341-boots-s1.jpg" alt="latest product">
+				<p>Rough Bullsy Shoes for Winter</p>
+				<p class="price">$329.49</p>
+				<button class="btn-a">VIEW OPTIONS</button>
+			</div>
+			<div class="latest-product new">
+				<img src="img/photodune-3164242-waterproof-shoes-m1.jpg" alt="latest product">
+				<p>Bullsy Snickers</p>
+				<p class="price">$52.99</p>
+				<button class="btn-a">ADD TO CART</button>
+			</div>
+			<div class="latest-product">
+				<img src="img/photodune-2916753-pair-of-sneakers-s.jpg" alt="latest product">
+				<p>Bullsy grey Snickers / Shoes</p>
+				<p class="price">$79.49</p>
+				<button class="btn-a">VIEW OPTIONS</button>
+			</div>
+		</div>
+	</section>
+<!--featured products section-->
+	<section class="featured-products bordered">
+		<div class="wrap">
+			<div class="heading">
+				<h3>FEATURED PRODUCTS</h3>
+			</div>
+			<div class="featured-product new">
+				<img src="img/photodune-962928-running-in-the-rain-m1.jpg" alt="featured product">
+				<p>Bullsy running Snickers</p>
+				<p class="price">$159.99</p>
+				<button class="btn-a">ADD TO CART</button>
+			</div>
+			<div class="featured-product">
+				<img src="img/photodune-3830755-hiking-concept-m.jpg" alt="featured product">
+				<p>Rough Hiking Shoes</p>
+				<p class="price">$329.49</p>
+				<button class="btn-a">VIEW OPTIONS</button>
+			</div>
+			<div class="featured-product new">
+				<img src="img/photodune-962955-bad-weather-s.jpg" alt="featured product">
+				<p>Waterproof Bullsy Snickers</p>
+				<p class="price">$52.99</p>
+				<button class="btn-a">ADD TO CART</button>
+			</div>
+			<div class="featured-product">
+				<img src="img/photodune-3941219-old-shoes-close-up-shot-against-grunge-backgrounds-s.jpg" alt="featured product">
+				<p>Bullsy working Shoes</p>
+				<p class="price">$79.49</p>
+				<button class="btn-a">VIEW OPTIONS</button>
+			</div>
+		</div>
+	</section>
+<!--recent posts section-->
+	<section class="recent-posts">
+		<div class="wrap">
+			<div class="heading">
+				<h3>LATEST FROM THE BLOG</h3>
+			</div>
+			<div class="recent-post">
+				<img src="img/photodune-4461181-used-flipflops-s.jpg" alt="post">
+				<div class="recent-post__text">
+					<p class="recent-post__heading">Extra rugged flip-flops will arrive soon</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloribus neque accusantium vel, quae repellendus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloribus neque accusantium vel, quae repellendus!</p>
+					<a href="" class="a-red">Read More</a>
+				</div>
+			</div>
+			<div class="recent-post">
+				<img src="img/photodune-4407870-old-sport-shoe-m1.jpg" alt="post">
+				<div class="recent-post__text">
+					<p class="recent-post__heading">New models of Bullsy Snickers just arrived</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laboriosam, dignissimos veniam obcaecati. Quasi, eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum laboriosam, dignissimos veniam obcaecati. Quasi, eaque.</p>
+					<a href="" class="a-red">Read More</a>
+				</div>
+			</div>
+			<div class="recent-post">
+				<img src="img/photodune-4461211-white-and-brown-snickers-s.png" alt="post">
+				<div class="recent-post__text">
+					<p class="recent-post__heading">Extra rugged flip-flops will arrive soon</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate omnis, laborum nobis similique quas animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate omnis, laborum nobis similique quas animi.</p>
+					<a href="" class="a-red">Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--quote section-->
+	<div class="quote">
+		<div class="wrap">
+			<h2>BULLSY - A RUGGED STORE FOR RUGGED PEOPLE</h2>
+			<p>- read more about our store and police <a href="#" class="a-red">here</a>. Lorem ipsum dolor sit amet.</p>
+		</div>
 	</div>
-
+<!--footer section-->
+	<footer>
+		<div class="wrap">
+			<div class="footer__logo">
+				<img src="img/vector_boot_white.png" alt="logo">
+			</div>
+			<div class="footer__menu">
+				<ul>
+					<li><a href="#home">HOME</a></li>
+					<li><a href="#apparel">APPAREL</a></li>
+					<li><a href="#fashion">FASHION</a></li>
+					<li><a href="#contactus">CONTACT US</a></li>
+				</ul>
+				<p>&copy; 2016 copyright PREMIUMCODING // All rights reserved</p>
+			</div>
+			<div class="button-up">
+				<a href="#">
+					<img src="img/arrow.png" alt="to the top">
+				</a>
+			</div>
+		</div>
+	</footer>
+<!--the end of markup-->
 	<script src="scripts/app.js"></script>
 </body>
 </html>
