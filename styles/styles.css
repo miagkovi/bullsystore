@@ -1,8 +1,4 @@
 /*==================================================================
-								IMPORT
-==================================================================*/
-@import url('normalize.css');
-/*==================================================================
 								STYLES
 ==================================================================*/
 /*
@@ -14,6 +10,10 @@
 18px / 16px = 1.125em;
 15px / 16px = 0.9375em;
 14px / 16px = 0.875em;
+*/
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
 */
 /*----------common styles----------*/
 body {
@@ -35,16 +35,19 @@ img {
 }
 h2 {
 	font-size: 2.25em;
+	font-family: 'Oswald', sans-serif;;
 	margin: 0;
 	padding: 0;
 }
 h3 {
 	font-size: 1.875em;
+	font-family: 'Oswald', sans-serif;;
 	margin: 0;
 	padding: 0;
 }
 h4 {
 	font-size: 1.875em;
+	font-family: 'Oswald', sans-serif;;
 	margin: 0;
 	padding: 0;
 }
@@ -76,6 +79,7 @@ button:hover {
 	border-bottom: 1px solid #e6e6e6;
 }
 .btn-a {
+	font-family: 'Oswald', sans-serif;
 	border: none;
 	background-color: #463f3a;
 	color: #ffffff;
@@ -112,7 +116,9 @@ button:hover {
 .upperheader .support li {
 	display: inline;
 	padding-right: 3%;
-
+	font-size: .875em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 .upperheader .account {
 	float: right;
@@ -122,9 +128,12 @@ button:hover {
 .upperheader .account li {
 	display: inline;
 	padding-left: 5%;
+	font-size: .875em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 .upperheader .account li a:hover {
-	font-weight: 600;
+	font-weight: 500;
 }
 /*----------header section styles----------*/
 header {
@@ -144,9 +153,11 @@ header {
 .header__menu li {
 	display: inline;
 	margin-right: 2%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 }
 .header__menu li a:hover {
-	font-weight: 600;
+	font-weight: 700;
 }
 .header__menu li+li:before {
 	content: "/";
@@ -158,6 +169,8 @@ header {
 	float: right;
 	padding-top: 1%;
 	font-size: 1.125em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 .header__cart p {
 	margin: 0 1%;
@@ -170,9 +183,13 @@ header {
 	float: right;
 	margin-left: 1%;
 }
+.cart__price {
+	font-weight: 500;
+}
 /*----------slideshow section styles----------*/
 .slideshow {
 	color: #ffffff;
+	margin-top: 2%;
 }
 .slideshow .wrap {
 	position: relative;
@@ -180,11 +197,12 @@ header {
 .slideshow .slideshow__menu {
 	position: absolute;
 	left: 0;
-	top: 23.5%;
+	top: 15%;
 	font-size: 3.75em;
+	font-family: 'Oswald', sans-serif;
 }
 .slideshow .slideshow__menu li {
-	padding: 1% 15%;
+	padding: 3% 20%;
 }
 .slideshow .slideshow__logo {
 	position: absolute;
@@ -207,8 +225,12 @@ header {
 .featured-boxes .featured-box:nth-of-type(3) {
 	margin-right: 0;
 }
+.featured-boxes .featured-box p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
 .featured-boxes .featured-box span {
-	font-weight: 600;
+	font-weight: 700;
 	color: #f55856;
 }
 /*----------categories section styles----------*/
@@ -236,11 +258,15 @@ header {
 	padding: 5%;
 }
 .categories .category__text p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 	font-style: italic;
 	line-height: 1.5em;
 }
 .categories .category__text a {
 	font-size: 1.25em;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 }
 /*----------latest section styles----------*/
 .latest-products .heading h3 {
@@ -252,6 +278,13 @@ header {
 	margin: 0 0.8474576271186441%;	/*10/1180*/
 	float: left;
 	margin-bottom: 3%;
+}
+.latest-products .latest-product p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+.latest-products .latest-product .price {
+	font-weight: 700;
 }
 .latest-products .latest-product:nth-of-type(2) {
 	margin-left: 0;
@@ -272,6 +305,13 @@ header {
 	margin: 0 0.8474576271186441%;	/*10/1180*/
 	float: left;
 	margin-bottom: 3%;
+}
+.featured-products .featured-product p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
+.featured-products .featured-product .price {
+	font-weight: 700;
 }
 .featured-products .featured-product:nth-of-type(2) {
 	margin-left: 0;
@@ -299,14 +339,25 @@ header {
 .recent-posts .recent-post:nth-of-type(4) {
 	margin-right: 0;
 }
+.recent-posts .recent-post .recent-post__text {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
 .recent-posts .recent-post__heading {
-	font-weight: 600;
+	margin-bottom: 0;
+	margin-top: 4%;
+	font-size: 1.125em;
+	font-weight: 700;
 }
 /*----------quote section styles----------*/
 .quote {
 	background-color: #f5f6f1;
 	text-align: center;
 	padding: 2% 0;
+}
+.quote p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 /*----------footer section styles----------*/
 footer {
@@ -325,6 +376,8 @@ footer .footer__menu {
 	width: 50%;
 	float: left;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 }
 footer .footer__menu li {
 	display: inline;
@@ -333,6 +386,7 @@ footer .footer__menu li {
 footer .footer__menu p {
 	margin: 0;
 	padding-top: 3%;
+	font-weight: 300;
 }
 footer .footer__menu li a:hover {
 	font-weight: 600;
@@ -340,6 +394,7 @@ footer .footer__menu li a:hover {
 footer .footer__menu li+li:before {
 	content: "/";
 	margin-right: 2%;
+	color: #f55856;
 }
 footer .button-up {
 	float: right;
@@ -356,7 +411,7 @@ footer .button-up:hover {
 		position: absolute;
 		left: 0;
 		top: 18.5%;
-		font-size: 3em;
+		font-size: 2.5em;
 	}
 /*----------categories----------*/
 	.categories .category {
@@ -393,6 +448,9 @@ footer .button-up:hover {
 		width: 56.38983050847458%; /*((1180-373)/1180))-12*/
 		padding: 0 1%;
 	}
+	.recent-posts .recent-post__heading {
+		margin-top: 0;
+	}
 	.recent-posts .recent-post:nth-of-type(3) img {
 		float: right;
 	}
@@ -400,7 +458,7 @@ footer .button-up:hover {
 		float: left;
 	}
 }
-
+/*======================================================================*/
 @media screen and (max-width: 768px) {
 	h2 {
 		font-size: 1.5em;
@@ -442,19 +500,20 @@ footer .button-up:hover {
 		right: 2%;
 		opacity: 0.5;
 	}
-	.header__cart .cart__items {display: none;}
+	.header__cart:hover {
+		opacity: 1;
+	}
+	.header__cart .cart__items,
 	.header__cart .cart__price {display: none;}
 /*----------slideshow section styles----------*/
-	.slideshow {
-		display: none;
-	}
+	.slideshow {display: none;}
 /*----------featured boxes section styles----------*/
 	.featured-boxes .featured-box {
 		width: 100%;
 		margin: 1.5% 0;
 	}
 	.featured-boxes .featured-box p {
-		margin: 0;
+		margin: 1% 0;
 		padding: 0;
 	}
 /*----------categories section styles----------*/
@@ -526,7 +585,9 @@ footer .button-up:hover {
 		padding-right: 2%;
 	}
 /*----------quote section styles----------*/
-	
+	.quote h2 {
+		font-size: 1.125em;
+	}
 /*----------footer section styles----------*/
 	footer .footer__logo {
 		display: none;
@@ -559,5 +620,8 @@ footer .button-up:hover {
 		bottom: 1%;
 		right: 2%;
 		opacity: 0.5;
+	}
+	footer .button-up:hover {
+		opacity: 1;
 	}
 }

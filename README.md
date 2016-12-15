@@ -1,8 +1,11 @@
 BULLSY Store Template
-===============
+=====================
 
-Slider/slideshow
+* Responsive Web Design
+* Google fonts
+* vanilla js slideshow
+* normalize.css
+* html5shiv.js
+* prefixfree.js
 
-
-RWD
-Created according to Ethan Marcotte "RESPONSIVE WEB DESIGN" book.
+Download source [PSD](https://themeforest.net/item/bullsy-a-rugged-bold-responsive-blog-theme/5476562).
