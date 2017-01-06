@@ -104,6 +104,9 @@ button:hover {
 	left: 0;
 	z-index: 999;
 }
+.hidden {
+	display: none;
+}
 /*----------upperheader section styles----------*/
 .upperheader {
 	padding: 0.75% 0;
